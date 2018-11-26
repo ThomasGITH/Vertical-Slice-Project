@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class modelDrag : MonoBehaviour
+public class modelRotationByMouse : MonoBehaviour
 {
     private Vector3 rotation, mouseOffset, mouseReference;
     public float sensitivity;
