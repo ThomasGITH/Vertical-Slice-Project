@@ -17,7 +17,7 @@ public class cameraScroll : MonoBehaviour
         {
             transform.position += dif;
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0.0f && transform.position.y > 7.07f)
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0.0f && transform.position.y > 1.99f)
         {
             transform.position -= dif;
         }
