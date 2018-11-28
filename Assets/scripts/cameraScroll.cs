@@ -13,7 +13,7 @@ public class cameraScroll : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0.0f && transform.position.y < 17.07f)
+        if (Input.GetAxis("Mouse ScrollWheel") > 0.0f && transform.position.y < 31.99f)
         {
             transform.position += dif;
         }
@@ -22,11 +22,11 @@ public class cameraScroll : MonoBehaviour
             transform.position -= dif;
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y < 17.07f)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y < 31.99f)
         {
             transform.position += dif;
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow) && transform.position.y > 7.07f)
+        else if (Input.GetKeyDown(KeyCode.DownArrow) && transform.position.y > 1.99f)
         {
             transform.position -= dif;
         }
