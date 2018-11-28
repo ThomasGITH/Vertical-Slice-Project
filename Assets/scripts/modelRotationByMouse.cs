@@ -19,9 +19,7 @@ public class modelRotationByMouse : MonoBehaviour
         if (mouseHold)
         {
             mouseOffset = (Input.mousePosition - mouseReference);
-
             rotation.y = -(mouseOffset.x + mouseOffset.y) * sensitivity;
-
             transform.Rotate(rotation);
             mouseReference = Input.mousePosition;
         }
