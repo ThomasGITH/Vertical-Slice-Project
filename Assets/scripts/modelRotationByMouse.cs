@@ -16,6 +16,16 @@ public class modelRotationByMouse : MonoBehaviour
 
     void Update()
     {
+        if(Input.GetMouseButtonDown(0))
+        {
+            mouseHold = true;
+            mouseReference = Input.mousePosition;
+        }
+        else if(Input.GetMouseButtonUp(0))
+        {
+            mouseHold = false;
+        }
+
         if (mouseHold)
         {
             mouseOffset = (Input.mousePosition - mouseReference);
@@ -23,17 +33,6 @@ public class modelRotationByMouse : MonoBehaviour
             transform.Rotate(rotation);
             mouseReference = Input.mousePosition;
         }
-    }
-
-    private void OnMouseDown()
-    {
-        mouseHold = true;
-        mouseReference = Input.mousePosition;
-    }
-
-    private void OnMouseUp()
-    {
-        mouseHold = false;
     }
 
 }
