@@ -8,30 +8,40 @@ public class cameraScroll : MonoBehaviour
 
     void Start()
     {
-        dif = new Vector3(0.0f, 5.0f, 0.0f);
+        dif = new Vector3(0.0f, 182.3055f, 0.0f);
     }
+
+    short index = 0;
 
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetAxis("Mouse ScrollWheel") > 0.0f) && transform.position.y < 31.99f)
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetAxis("Mouse ScrollWheel") > 0.0f)
         {
-            MoveUp();
+            if(index < 2)
+            {
+                index += 1;
+                MoveDown();
+            }
         }
-        else if ((Input.GetKeyDown(KeyCode.DownArrow) || Input.GetAxis("Mouse ScrollWheel") < 0.0f) && transform.position.y > 1.99f)
+        else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetAxis("Mouse ScrollWheel") < 0.0f)
         {
-            MoveDown();
+            if (index > -2)
+            {
+                index -= 1;
+                MoveUp();
+            }
         }
+
     }
 
     public void MoveUp()
     {
-        transform.position += dif;
+        transform.position -= dif;
     }
 
     public void MoveDown()
     {
-        transform.position -= dif;
+        transform.position += dif;
     }
-
 
 }
