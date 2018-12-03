@@ -4,20 +4,23 @@ using UnityEngine;
 
 public class cameraScroll : MonoBehaviour
 {
-    private Vector3 dif;
+    private Vector3 dif, targetPos;
+    const float difference = 350;
+    private short index = 0;
+    private float velocity;
 
     void Start()
     {
-        dif = new Vector3(0.0f, 182.3055f, 0.0f);
+        dif = new Vector3(0.0f, difference, 0.0f);
+        targetPos = transform.position;
+        velocity = 800;
     }
-
-    short index = 0;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetAxis("Mouse ScrollWheel") > 0.0f)
         {
-            if(index < 2)
+            if (index < 2)
             {
                 index += 1;
                 MoveDown();
@@ -32,16 +35,19 @@ public class cameraScroll : MonoBehaviour
             }
         }
 
+        transform.position = Vector2.MoveTowards(transform.position, targetPos, velocity * Time.deltaTime);
     }
 
     public void MoveUp()
     {
-        transform.position -= dif;
+        //transform.position += dif;
+        targetPos = transform.position + dif;
     }
 
     public void MoveDown()
     {
-        transform.position += dif;
+        //transform.position -= dif;
+        targetPos = transform.position - dif;
     }
 
 }
