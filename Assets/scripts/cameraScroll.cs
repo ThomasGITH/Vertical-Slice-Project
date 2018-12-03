@@ -1,19 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class cameraScroll : MonoBehaviour
 {
     private Vector3 dif, targetPos;
-    const float difference = 350;
+    const float difference = 175, velocity = 1000;
     private short index = 0;
-    private float velocity;
+    private Text _hsText; // hair style text
+
+    int hsIndex = 3; // hair style number
 
     void Start()
     {
+        _hsText = GameObject.Find("HairstyleIndexText").GetComponent<Text>();
         dif = new Vector3(0.0f, difference, 0.0f);
         targetPos = transform.position;
-        velocity = 800;
     }
 
     void Update()
@@ -42,12 +45,16 @@ public class cameraScroll : MonoBehaviour
     {
         //transform.position += dif;
         targetPos = transform.position + dif;
+        hsIndex += 1;
+        _hsText.text = hsIndex.ToString();
     }
 
     public void MoveDown()
     {
         //transform.position -= dif;
         targetPos = transform.position - dif;
+        hsIndex -= 1;
+        _hsText.text = hsIndex.ToString();
     }
 
 }
