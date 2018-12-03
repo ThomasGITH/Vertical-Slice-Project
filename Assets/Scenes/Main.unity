@@ -2270,6 +2270,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114807774913237666, guid: 5f04d5ea196482c4db0c5a8dffa3ed5e,
+        type: 2}
+      propertyPath: m_Text
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f04d5ea196482c4db0c5a8dffa3ed5e, type: 2}
   m_IsPrefabAsset: 0
@@ -4785,7 +4790,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 3
 --- !u!222 &1650631447
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5382,6 +5387,11 @@ Prefab:
         type: 2}
       propertyPath: m_Colors.m_NormalColor.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114697635752845688, guid: b8abe15d45d9f0a4bb6db92016377995,
+        type: 2}
+      propertyPath: m_Transition
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8abe15d45d9f0a4bb6db92016377995, type: 2}
