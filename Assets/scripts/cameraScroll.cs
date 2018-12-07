@@ -21,7 +21,7 @@ public class cameraScroll : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetAxis("Mouse ScrollWheel") > 0.0f)
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetAxis("Mouse ScrollWheel") > 0.0f)
         {
             if (index < 2)
             {
@@ -29,7 +29,7 @@ public class cameraScroll : MonoBehaviour
                 MoveDown();
             }
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetAxis("Mouse ScrollWheel") < 0.0f)
+        else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetAxis("Mouse ScrollWheel") < 0.0f)
         {
             if (index > -2)
             {
@@ -43,17 +43,15 @@ public class cameraScroll : MonoBehaviour
 
     public void MoveUp()
     {
-        //transform.position += dif;
-        targetPos = transform.position + dif;
-        hsIndex += 1;
+        targetPos = transform.position - dif;
+        hsIndex -= 1;
         _hsText.text = hsIndex.ToString();
     }
 
     public void MoveDown()
     {
-        //transform.position -= dif;
-        targetPos = transform.position - dif;
-        hsIndex -= 1;
+        targetPos = transform.position + dif;
+        hsIndex += 1;
         _hsText.text = hsIndex.ToString();
     }
 
