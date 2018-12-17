@@ -9,7 +9,7 @@ public class RandomString
     {
         StreamReader reader = new StreamReader(path, true);
         string stream = reader.ReadToEnd();
-        stringList = stream.Split(' ');
+        stringList = stream.Split('|');
     }
 
     public string Activate() 
