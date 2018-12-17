@@ -11,6 +11,8 @@ public class uiButtonScript : MonoBehaviour
     public uint hairstyle, skincolor, beep, boop;
     private CharacterData charData;
 
+    public Button male, female;
+
     public void Start()
     {
         randomName = new RandomStringField(_inputText, "Assets/other/namelist.txt");
@@ -39,6 +41,11 @@ public class uiButtonScript : MonoBehaviour
         {
             Application.Quit();
         }
+
+
+
     }
+
+
 
 }
