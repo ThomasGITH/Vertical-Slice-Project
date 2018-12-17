@@ -28,7 +28,7 @@ public class uiButtonScript : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.P))
         {
-            charData.hairstyleIndex = 3;
+            charData.hairstyleIndex = 2;
             charData.Write();
         }
 

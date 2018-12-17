@@ -1,10 +1,11 @@
-﻿using UnityEngine.UI;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class RandomStringField : IButton
 {
     private RandomString randomString;
     private InputField _inputField;
-    
+
     public RandomStringField(InputField inputField, string path)
     {
         _inputField = inputField;
@@ -13,6 +14,7 @@ public class RandomStringField : IButton
 
     public void Click()
     {
+        
         _inputField.text = randomString.Activate();
     }
 
