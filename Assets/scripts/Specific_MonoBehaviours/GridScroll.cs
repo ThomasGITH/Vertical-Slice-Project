@@ -47,19 +47,22 @@ public class GridScroll : MonoBehaviour {
 
         upButton.sprite = targetPosition == 4 ? up_grayed : up_active;
         downButton.sprite = targetPosition == 0 ? down_grayed : down_active;
-
     }
 
     public void MoveUp()
     {
         audio.Play();
         targetPosition += targetPosition < 4 ? 1 : 0;
+        chardata.hairstyleIndex = (short)(-(targetPosition - 4));
+        chardata.Write();
     }
 
     public void MoveDown()
     {
         audio.Play();
         targetPosition += targetPosition > 0 ? -1 : 0;
+        chardata.hairstyleIndex = (short)(-(targetPosition - 4));
+        chardata.Write();
     }
 
 }

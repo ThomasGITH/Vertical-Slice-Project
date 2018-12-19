@@ -9,14 +9,12 @@ public class uiButtonScript : MonoBehaviour
     public InputField _inputText;
     private RandomStringField randomName;
     public uint hairstyle, skincolor, beep, boop;
-    private CharacterData charData;
 
     public Button male, female;
 
     public void Start()
     {
         randomName = new RandomStringField(_inputText, "Assets/other/namelist.txt");
-        charData = new CharacterData();
     }
     
     public void RandomizeName()
@@ -26,24 +24,14 @@ public class uiButtonScript : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.P))
-        {
-            charData.hairstyleIndex = 2;
-            charData.Write();
-        }
-
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            print(charData.Read().hairstyleIndex);
-        }
-
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            JsonData.CharacterData chardata = new JsonData.CharacterData();
+            chardata.hairstyleIndex = 2;
+            chardata.Write();
+            print(Application.persistentDataPath);
             Application.Quit();
         }
-
-
-
     }
 
 

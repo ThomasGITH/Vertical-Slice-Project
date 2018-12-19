@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: d63577111640d414f8384cb24b539a9f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: animated_texture_model_pCylinder1
+    100002: animated_texture_model_pCylinder2
+    100004: //RootNode
+    100006: cloth
+    100008: edges_top
+    100010: group1
+    100012: group2
+    100014: group3
+    100016: group4
+    100018: haar
+    100020: miden_ding_animated_animated_texture_model_pCylinder1
+    100022: miden_ding_animated_animated_texture_model_pCylinder2
+    100024: miden_ding_animated_group1
+    100026: pCube2
+    100028: pCube3
+    100030: pCylinder1
+    100032: pCylinder1 1
+    100034: pCylinder1 2
+    100036: pCylinder1 3
+    100038: pCylinder1 4
+    100040: pCylinder2
+    100042: pCylinder2 1
+    100044: pCylinder2 2
+    100046: pCylinder2 3
+    100048: pCylinder2 4
+    100050: pCylinder3
+    100052: pPlane3
+    100054: pPlane3 1
+    100056: pPlane4
+    100058: pPlane5
+    100060: pPlane6
+    100062: pPlane7
+    100064: pSphere1
+    100066: pSphere1 1
+    100068: pSphere1 2
+    100070: pSphere1 3
+    100072: pSphere2
+    100074: punt_ding_animated_texture_model_pCylinder1
+    100076: punt_ding_animated_texture_model_pCylinder2
+    100078: punt_ding_group1
+    100080: punt_ding_miden_ding_animated_animated_texture_model_pCylinder1
+    100082: punt_ding_miden_ding_animated_animated_texture_model_pCylinder2
+    100084: punt_ding_miden_ding_animated_group1
+    100086: ridge_back
+    100088: rim_front
+    100090: schouder_0041:edges_top
+    100092: schouder_0041:gem_0001:pSphere1
+    100094: schouder_0041:pCube2
+    100096: schouder_0041:pCube3
+    100098: schouder_0041:pSphere1
+    100100: schouder_0041:ridge_back
+    100102: schouder_0041:rim_front
+    100104: shoulder_l
+    100106: shoulder_r
+    100108: sword_l
+    100110: sword_r
+    100112: T_Pose:default1
+    100114: T_Pose:mixamorig:Head
+    100116: T_Pose:mixamorig:HeadTop_End
+    100118: T_Pose:mixamorig:Hips
+    100120: T_Pose:mixamorig:LeftArm
+    100122: T_Pose:mixamorig:LeftFoot
+    100124: T_Pose:mixamorig:LeftForeArm
+    100126: T_Pose:mixamorig:LeftHand
+    100128: T_Pose:mixamorig:LeftHandIndex1
+    100130: T_Pose:mixamorig:LeftHandIndex2
+    100132: T_Pose:mixamorig:LeftHandIndex3
+    100134: T_Pose:mixamorig:LeftHandIndex4
+    100136: T_Pose:mixamorig:LeftHandThumb1
+    100138: T_Pose:mixamorig:LeftHandThumb2
+    100140: T_Pose:mixamorig:LeftHandThumb3
+    100142: T_Pose:mixamorig:LeftHandThumb4
+    100144: T_Pose:mixamorig:LeftLeg
+    100146: T_Pose:mixamorig:LeftShoulder
+    100148: T_Pose:mixamorig:LeftToe_End
+    100150: T_Pose:mixamorig:LeftToeBase
+    100152: T_Pose:mixamorig:LeftUpLeg
+    100154: T_Pose:mixamorig:Neck
+    100156: T_Pose:mixamorig:RightArm
+    100158: T_Pose:mixamorig:RightFoot
+    100160: T_Pose:mixamorig:RightForeArm
+    100162: T_Pose:mixamorig:RightHand
+    100164: T_Pose:mixamorig:RightHandIndex1
+    100166: T_Pose:mixamorig:RightHandIndex2
+    100168: T_Pose:mixamorig:RightHandIndex3
+    100170: T_Pose:mixamorig:RightHandIndex4
+    100172: T_Pose:mixamorig:RightHandThumb1
+    100174: T_Pose:mixamorig:RightHandThumb2
+    100176: T_Pose:mixamorig:RightHandThumb3
+    100178: T_Pose:mixamorig:RightHandThumb4
+    100180: T_Pose:mixamorig:RightLeg
+    100182: T_Pose:mixamorig:RightShoulder
+    100184: T_Pose:mixamorig:RightToe_End
+    100186: T_Pose:mixamorig:RightToeBase
+    100188: T_Pose:mixamorig:RightUpLeg
+    100190: T_Pose:mixamorig:Spine
+    100192: T_Pose:mixamorig:Spine1
+    100194: T_Pose:mixamorig:Spine2
+    100196: T_Pose:pCube1
+    100198: transform1
+    100200: transform1 1
+    100202: transform1 2
+    100204: transform1 3
+    100206: transform1 4
+    100208: transform1 5
+    100210: transform1 6
+    100212: transform1 7
+    100214: transform10
+    100216: transform11
+    100218: transform2
+    100220: transform2 1
+    100222: transform2 2
+    100224: transform2 3
+    100226: transform2 4
+    100228: transform2 5
+    100230: transform2 6
+    100232: transform2 7
+    100234: transform3
+    100236: transform4
+    100238: transform5
+    100240: transform6
+    100242: transform7
+    100244: transform8
+    100246: transform9
+    100248: weapons_base
+    100250: arm_gaurds
+    100252: eyebrows:eyebrow
+    100254: haar1
+    100256: l
+    100258: r
+    400000: animated_texture_model_pCylinder1
+    400002: animated_texture_model_pCylinder2
+    400004: //RootNode
+    400006: cloth
+    400008: edges_top
+    400010: group1
+    400012: group2
+    400014: group3
+    400016: group4
+    400018: haar
+    400020: miden_ding_animated_animated_texture_model_pCylinder1
+    400022: miden_ding_animated_animated_texture_model_pCylinder2
+    400024: miden_ding_animated_group1
+    400026: pCube2
+    400028: pCube3
+    400030: pCylinder1
+    400032: pCylinder1 1
+    400034: pCylinder1 2
+    400036: pCylinder1 3
+    400038: pCylinder1 4
+    400040: pCylinder2
+    400042: pCylinder2 1
+    400044: pCylinder2 2
+    400046: pCylinder2 3
+    400048: pCylinder2 4
+    400050: pCylinder3
+    400052: pPlane3
+    400054: pPlane3 1
+    400056: pPlane4
+    400058: pPlane5
+    400060: pPlane6
+    400062: pPlane7
+    400064: pSphere1
+    400066: pSphere1 1
+    400068: pSphere1 2
+    400070: pSphere1 3
+    400072: pSphere2
+    400074: punt_ding_animated_texture_model_pCylinder1
+    400076: punt_ding_animated_texture_model_pCylinder2
+    400078: punt_ding_group1
+    400080: punt_ding_miden_ding_animated_animated_texture_model_pCylinder1
+    400082: punt_ding_miden_ding_animated_animated_texture_model_pCylinder2
+    400084: punt_ding_miden_ding_animated_group1
+    400086: ridge_back
+    400088: rim_front
+    400090: schouder_0041:edges_top
+    400092: schouder_0041:gem_0001:pSphere1
+    400094: schouder_0041:pCube2
+    400096: schouder_0041:pCube3
+    400098: schouder_0041:pSphere1
+    400100: schouder_0041:ridge_back
+    400102: schouder_0041:rim_front
+    400104: shoulder_l
+    400106: shoulder_r
+    400108: sword_l
+    400110: sword_r
+    400112: T_Pose:default1
+    400114: T_Pose:mixamorig:Head
+    400116: T_Pose:mixamorig:HeadTop_End
+    400118: T_Pose:mixamorig:Hips
+    400120: T_Pose:mixamorig:LeftArm
+    400122: T_Pose:mixamorig:LeftFoot
+    400124: T_Pose:mixamorig:LeftForeArm
+    400126: T_Pose:mixamorig:LeftHand
+    400128: T_Pose:mixamorig:LeftHandIndex1
+    400130: T_Pose:mixamorig:LeftHandIndex2
+    400132: T_Pose:mixamorig:LeftHandIndex3
+    400134: T_Pose:mixamorig:LeftHandIndex4
+    400136: T_Pose:mixamorig:LeftHandThumb1
+    400138: T_Pose:mixamorig:LeftHandThumb2
+    400140: T_Pose:mixamorig:LeftHandThumb3
+    400142: T_Pose:mixamorig:LeftHandThumb4
+    400144: T_Pose:mixamorig:LeftLeg
+    400146: T_Pose:mixamorig:LeftShoulder
+    400148: T_Pose:mixamorig:LeftToe_End
+    400150: T_Pose:mixamorig:LeftToeBase
+    400152: T_Pose:mixamorig:LeftUpLeg
+    400154: T_Pose:mixamorig:Neck
+    400156: T_Pose:mixamorig:RightArm
+    400158: T_Pose:mixamorig:RightFoot
+    400160: T_Pose:mixamorig:RightForeArm
+    400162: T_Pose:mixamorig:RightHand
+    400164: T_Pose:mixamorig:RightHandIndex1
+    400166: T_Pose:mixamorig:RightHandIndex2
+    400168: T_Pose:mixamorig:RightHandIndex3
+    400170: T_Pose:mixamorig:RightHandIndex4
+    400172: T_Pose:mixamorig:RightHandThumb1
+    400174: T_Pose:mixamorig:RightHandThumb2
+    400176: T_Pose:mixamorig:RightHandThumb3
+    400178: T_Pose:mixamorig:RightHandThumb4
+    400180: T_Pose:mixamorig:RightLeg
+    400182: T_Pose:mixamorig:RightShoulder
+    400184: T_Pose:mixamorig:RightToe_End
+    400186: T_Pose:mixamorig:RightToeBase
+    400188: T_Pose:mixamorig:RightUpLeg
+    400190: T_Pose:mixamorig:Spine
+    400192: T_Pose:mixamorig:Spine1
+    400194: T_Pose:mixamorig:Spine2
+    400196: T_Pose:pCube1
+    400198: transform1
+    400200: transform1 1
+    400202: transform1 2
+    400204: transform1 3
+    400206: transform1 4
+    400208: transform1 5
+    400210: transform1 6
+    400212: transform1 7
+    400214: transform10
+    400216: transform11
+    400218: transform2
+    400220: transform2 1
+    400222: transform2 2
+    400224: transform2 3
+    400226: transform2 4
+    400228: transform2 5
+    400230: transform2 6
+    400232: transform2 7
+    400234: transform3
+    400236: transform4
+    400238: transform5
+    400240: transform6
+    400242: transform7
+    400244: transform8
+    400246: transform9
+    400248: weapons_base
+    400250: arm_gaurds
+    400252: eyebrows:eyebrow
+    400254: haar1
+    400256: l
+    400258: r
+    2100000: lambert1
+    2100002: lambert7
+    2100004: lambert9
+    2100006: lambert8
+    2100008: lambert14
+    2100010: schouder_0041_lambert6
+    2100012: schouder_0041_lambert8
+    2100014: schouder_0041_lambert5
+    2100016: schouder_0041_lambert4
+    2100018: lambert11
+    2100020: lambert10
+    2100022: lambert12
+    2100024: lambert13
+    2100026: animated_texture_model_lambert8
+    2100028: miden_ding_animated_lambert9
+    2100030: punt_ding_lambert8
+    2100032: eyebrows_hair_3_lambert2
+    2100034: lambert16
+    2300000: cloth
+    2300002: edges_top
+    2300004: haar
+    2300006: pCube2
+    2300008: pCube3
+    2300010: pCylinder1
+    2300012: pCylinder2
+    2300014: pSphere1
+    2300016: pSphere1 1
+    2300018: pSphere2
+    2300020: ridge_back
+    2300022: rim_front
+    2300024: schouder_0041:edges_top
+    2300026: schouder_0041:gem_0001:pSphere1
+    2300028: schouder_0041:pCube2
+    2300030: schouder_0041:pCube3
+    2300032: schouder_0041:pSphere1
+    2300034: schouder_0041:ridge_back
+    2300036: schouder_0041:rim_front
+    2300038: sword_l
+    2300040: sword_r
+    2300042: T_Pose:default1
+    2300044: eyebrows:eyebrow
+    2300046: haar1
+    2300048: l
+    2300050: r
+    3300000: cloth
+    3300002: edges_top
+    3300004: haar
+    3300006: pCube2
+    3300008: pCube3
+    3300010: pCylinder1
+    3300012: pCylinder2
+    3300014: pSphere1
+    3300016: pSphere1 1
+    3300018: pSphere2
+    3300020: ridge_back
+    3300022: rim_front
+    3300024: schouder_0041:edges_top
+    3300026: schouder_0041:gem_0001:pSphere1
+    3300028: schouder_0041:pCube2
+    3300030: schouder_0041:pCube3
+    3300032: schouder_0041:pSphere1
+    3300034: schouder_0041:ridge_back
+    3300036: schouder_0041:rim_front
+    3300038: sword_l
+    3300040: sword_r
+    3300042: T_Pose:default1
+    3300044: eyebrows:eyebrow
+    3300046: haar1
+    3300048: l
+    3300050: r
+    4300000: T_Pose:default1
+    4300002: T_Pose:pCube1
+    4300004: haar
+    4300006: pCylinder2
+    4300008: pCylinder1
+    4300010: cloth
+    4300012: pSphere1
+    4300014: schouder_0041:gem_0001:pSphere1
+    4300016: schouder_0041:pSphere1
+    4300018: schouder_0041:ridge_back
+    4300020: schouder_0041:edges_top
+    4300022: schouder_0041:pCube3
+    4300024: schouder_0041:pCube2
+    4300026: schouder_0041:rim_front
+    4300028: pSphere1
+    4300030: pSphere2
+    4300032: ridge_back
+    4300034: edges_top
+    4300036: pCube3
+    4300038: pCube2
+    4300040: rim_front
+    4300042: sword_l
+    4300044: sword_r
+    4300046: haar1
+    4300048: eyebrows:eyebrow
+    4300050: r
+    4300052: l
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: T_Pose:pCube1
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: T_Pose:mixamorig:Hips
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
