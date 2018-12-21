@@ -1,6 +1,6 @@
 # Vertical-Slice-Project
 
-A clone of the hair-selection screen of the WoW customization menu.
+h2[A clone of the hair-selection screen of the WoW customization menu.]
 Developed for a 1-month school project by Thomas Linssen, Erik Kooijman & Kevin Crans.
 Art done by Luke van Klooster, Yvonne Kuijt, Zoe Baars & Gaia de la Ruelle.
 
